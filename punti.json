@@ -1,0 +1,72 @@
+[
+{
+"guid": "83258ee53e254f638d499b2766edf7bf.16",
+"lat": 45.575374,
+"lng": 9.173303,
+"title": "Infopoint Parco Toti",
+"address": "Via S. Michele del Carso, 66, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/Pm3si0pVNbd97o6-XUPUz7VsdHg-82WtxwIqRu1AvcrP5ekjK3tASjKOayfXyI1OoV26diYxURFoaYU_tSZWig_LtRY4",
+"timestamp": "2023-08-07T22:31:15.964885Z",
+"Distance": 0
+},
+{
+"guid": "7b7a0db9cf284fc48a5efabe274664b0.16",
+"lat": 45.575312,
+"lng": 9.172078,
+"title": "Madonnina Dell'Oratorio San Luigi di Incirano",
+"address": "Via S. Michele del Carso, 71, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/47eA8iM0oi-sW9PsgKevVbcRcqpj03ekjhJbNdFMIBXg2F6c16KitauP6EL9UOyI69rl0Nk8uaJcvw_TYZSobPKABQ",
+"timestamp": "2023-08-07T22:31:16.600864Z",
+"Distance": 0
+},
+{
+"guid": "8efc1f7834c73404a6a6590bc95194c8.16",
+"lat": 45.57508,
+"lng": 9.172788,
+"title": "L'albero della vita",
+"address": "Via S. Michele del Carso, 62, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/zmWfVMcgWTLUMS22n3hJ0jWjyE4k8FtFNOOWpN7HfwBwmYK95TzZSI2ToVNJLeCyIoBHcBuH7WistuIlg3N47lzNzLloLlAEsPm1dGM",
+"timestamp": "2022-02-04T17:06:25.833315Z",
+"Distance": 0
+},
+{
+"guid": "7044ceeb0f8d324086c521b07923a3ce.16",
+"lat": 45.57566,
+"lng": 9.174295,
+"title": "Area per esplorare - Cartello Informativo",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/gnjgr6r0otbqrhpC6Y_0IlTQ_UXauMHyEfQaMKiN__iZ0pwJiYxB0oVa3sL5CRu6z9b-I7mon8i1kddZT9Cnx6_AnjL9qEP1nzRC2hvK",
+"timestamp": "2022-02-04T17:06:25.85191Z",
+"Distance": 0
+},
+{
+"guid": "443b129b7e0d33828984f93b53e7095f.16",
+"lat": 45.575276,
+"lng": 9.17285,
+"title": "Parco Grubrià",
+"address": "Via S. Michele del Carso, 62, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/6qalLJEUxu0JAmWHunlNAKUz5VLTcysYxgLe2gcnn0efLE92tiV-KG6-tqCZ_Ef6YTLZ_RcgZEoAdVfigQePVKD6mLvrHYxiLr-RLxO7TQ",
+"timestamp": "2023-08-07T22:31:16.682031Z",
+"Distance": 0
+},
+{
+"guid": "b07d4f8229a137dc99cc11d86178c0d3.16",
+"lat": 45.575756,
+"lng": 9.173713,
+"title": "Sambuco - Sambucus",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/XnrIFFci1IF5PgqQDPM3aXMoOa8uNiiY74rjtj1zioRG690snqr5b7mWqFE0DCFrwLG8GdHwhq4FW7nJoWQ4jz24qB6BXYjXG2M8h78",
+"timestamp": "2022-02-04T17:06:25.844412Z",
+"Distance": 0
+},
+{
+"guid": "74920d87ae5244e2be6a4061a11f0871.16",
+"lat": 45.575796,
+"lng": 9.174054,
+"title": "Parco Grugnotorto Villoresi - Parco locale di interesse sovracomunale",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/iuYNBLzR6hJcqaFqEFEUEGMIEiBH48HFWmiHfNP8x-VTjT-yHLN2KHRwed7u2eTj0vcycanA0rs5uEGztQ0y6GfPFOA",
+"timestamp": "2020-11-05T22:21:45.638601Z",
+"Distance": 0
+}
+]
