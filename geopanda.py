@@ -51,3 +51,6 @@ while i < 7:
 x_values = np.linspace(min(gdf['lng']), max(gdf['lng']), num=100)
 y_values = slope * x_values + intercept
 print(x_values)
+
+gdf['distanza_dalla_linea'] = hv.haversine(b_perp,a_perp,gdf['lng'],gdf['lat'])
+
