@@ -5,6 +5,7 @@ from scipy.spatial import KDTree
 import numpy as np
 import matplotlib.pyplot as plt
 import haversine as hv
+import math
 
 
 # Parametri configurabili
@@ -26,30 +27,27 @@ gdf = gpd.GeoDataFrame(data, geometry=points)
 #linea_approssimante = LineString(gdf['geometry'][:2])
 #using polyfit
 slope, intercept = np.polyfit(gdf['lng'], gdf['lat'], deg=1)
-print(slope)
-print(intercept)
 
-# Calcola la distanza di ogni punto dalla linea approssimante
-#gdf['distanza_dalla_linea'] = gdf['geometry'].apply(lambda punto: punto.distance(linea_approssimante))
-y_estimated = -(1/slope) * gdf['lng'] + intercept
+slope_perp = -1 / slope
+#(a,b) = (gdf['lng'],gdf['lat']
+#c = b + (a/slope)
+intercept_perp = gdf['lat'] - (gdf['lng'] * slope_perp)
+print(intercept_perp)
+
+def y_perp(x):
+    return slope_perp*x + intercept_perp
+
+a_perp = (slope*gdf['lat'] + (gdf['lng']) - intercept*slope)/(slope**2+1)
+b_perp = y_perp(a_perp)
 
 
-gdf['distanza_dalla_linea'] = np.abs(gdf['lat'] - (slope * gdf['lng'] + intercept)) / np.sqrt(1 + slope**2)
+i=0
+while i < 7:
+    print(f"il punto di intersezione per il punto {points[i]} è ({a_perp[i]},{b_perp[i]})")
+    i = i+1
 
-# Filtra i punti che sono entro la DISTANZA_MAX dalla linea approssimante
-punti_vicini = gdf[gdf['distanza_dalla_linea'] <= DISTANZA_MAX]
 
 # Create the regression line
 x_values = np.linspace(min(gdf['lng']), max(gdf['lng']), num=100)
 y_values = slope * x_values + intercept
-
-# Plot the data points, regression line, and distances
-plt.scatter(gdf['lng'], gdf['lat'], label='Data Points')
-plt.plot(x_values, y_values, color='red', label='Regression Line')
-for i, row in gdf.iterrows():
-    plt.annotate(f"{row['distanza_dalla_linea']:.6f}", (row['lng'], row['lat']), textcoords="offset points", xytext=(0, 5), ha='center')
-plt.xlabel('Longitude')
-plt.ylabel('Latitude')
-plt.title('Regression Line with Perpendicular Distances')
-plt.legend()
-plt.show()
+print(x_values)
