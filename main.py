@@ -12,14 +12,14 @@ with open("punti.json", "r") as json_file:
 
 # Extract latitudes and longitudes
 coordinates = np.array([(entry["lat"], entry["lng"]) for entry in json_data])
-
+print(coordinates)
 # Fit line using all data
 model = LineModelND()
 model.estimate(coordinates)
 
 # Robustly fit line only using inlier data with RANSAC algorithm
 model_robust, inliers = ransac(
-    coordinates, LineModelND, min_samples=2, residual_threshold=1, max_trials=1000
+    coordinates, LineModelND, min_samples=2, residual_threshold=1, max_trials=10
 )
 outliers = inliers == False
 
@@ -29,7 +29,7 @@ line_y = model.predict_y(line_x)
 line_y_robust = model_robust.predict_y(line_x)
 
 # Create a map with PlateCarree projection
-fig = plt.figure(figsize=(10, 8))
+fig = plt.figure(figsize=(10, 10))
 ax = plt.axes(projection=ccrs.PlateCarree())
 ax.set_title("Geographic Line Model")
 
