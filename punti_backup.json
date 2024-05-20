@@ -1,0 +1,872 @@
+[
+{
+"guid": "cc1d07ea49e046a8aec4e54aed7116d1.16",
+"lat": 45.573653,
+"lng": 9.17153,
+"title": "Percorso Vita: Tappa 13 - Parco Toti",
+"address": "Via Renato Serra, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/agdDven4NJy762GLuQOnusCcE7cBxeqCm65kwDa62zl_jJeIYyplrFRKkW4mtn8vmTHsjYNJ3C-HOaf-JRXdm5dXZYXD",
+"timestamp": "2020-12-29T17:33:06.294349Z",
+"Distance": 0
+},
+{
+"guid": "5fb0b6fb8ce231e9b3495cc3e58b3115.16",
+"lat": 45.574727,
+"lng": 9.170978,
+"title": "Campo da Basket - via San Michele del Carso",
+"address": "Via S. Michele del Carso, 59, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/4ElytDHzPOQxvd1l9WQn8UJMzkRrOgslsNiL-kgb7cq8Qw91Tcsq72dmJY9IhNB4LLbeqhLsCJ1HH0q2xAvYQf6aDFzmRj2PNVN2jPA",
+"timestamp": "2022-02-04T17:05:26.445428Z",
+"Distance": 0
+},
+{
+"guid": "cb98345f63023d0786ab41d9c1d75e9b.16",
+"lat": 45.573749,
+"lng": 9.170079,
+"title": "Acacia - Robinia Pseudoacacia L.",
+"address": "PADERNO DUGNANO Serra/Del Carso (fr scuole Mazzini), 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/_73o9m6LCxWWPq9jkbogpAJ7_J9vpV07nemGTYVRQJ5m5B0aTgu6s8tArnKJ9N0vopJ5A4h9NKO7RhfLMOwYugDXzdMWdSj5yCIRIYna",
+"timestamp": "2023-08-07T22:31:16.67099Z",
+"Distance": 0
+},
+{
+"guid": "e02bc08afd3142e2bcc1377b5f6e8656.16",
+"lat": 45.573846,
+"lng": 9.17236,
+"title": "Percorso Vita: Tappa 12 - Parco Toti",
+"address": "Via Aurora, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/bi68xlb3xr9DRxIdXQXD9um1sG7Tt-uDH1nuRGOOjuk3aOKkbkcmx7qe0qbQ3Yc5prkY43_qy0ZFl6NI__NV4wYGrO8",
+"timestamp": "2023-08-07T22:31:16.658209Z",
+"Distance": 0
+},
+{
+"guid": "b1136564e76448218665e423fbeb715d.16",
+"lat": 45.573307,
+"lng": 9.170296,
+"title": "Centro Sportivo Comunale di Via Serra",
+"address": "Via Renato Serra, 27A, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/tcZzmDX8rzbEQc-aEjSwvPidYkmr6H-5alBGrGB7yiGozfDcapn0OyRI2-LvMH4Rk7ONMLrWaU6KXet8rxleWCt7CA",
+"timestamp": "2023-08-07T22:31:16.26272Z",
+"Distance": 0
+},
+{
+"guid": "2a524e6f3c154139a21665189713f2b9.16",
+"lat": 45.576342,
+"lng": 9.175396,
+"title": "Parco Lago Nord - Ingresso Ovest",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/w6N0ZZjX_laIY6K-Dbo6WfgUhzZyTw6NaVLESzL767bjVjhshnBv4xkR-8zepjQv17IVTIlObkF3I26wgqr5P1xntsQ",
+"timestamp": "2023-08-07T22:31:16.544786Z",
+"Distance": 0
+},
+{
+"guid": "90b8c92197684a268a3f04df82d5d824.16",
+"lat": 45.576555,
+"lng": 9.17657,
+"title": "Percorso del Lago e delle Ville - Paderno Dugnano",
+"address": "Unnamed Road, 20037, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/pDYNFTZpIsVU2deUKBXirInrJ8VFoHC2tTCmBJUoVu5JDiUMe97Hp44TPymilKaI9APhJuMHHP-TXGnGSnHsvcVl92A",
+"timestamp": "2023-08-07T22:31:16.212536Z",
+"Distance": 0
+},
+{
+"guid": "685f208315f14cb49e8f08c5de391303.16",
+"lat": 45.576566,
+"lng": 9.17706,
+"title": "Pista di Pattinaggio - Parco lago Nord",
+"address": "SP35, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/l2iC_9yRbE2vcBAYfhTYEkXwvRmsyAPzbTUG-cMQwWBZubs2GYBdjVrw-fEc7i7EyX4m_68-KIpQZG5XoyOemGT0Z9E",
+"timestamp": "2023-08-07T22:31:16.164073Z",
+"Distance": 0
+},
+{
+"guid": "f00dee9b34aa4f36baac0b569e05d202.16",
+"lat": 45.575839,
+"lng": 9.178542,
+"title": "Percorso Vita - Tappa 12",
+"address": null,
+"image": "https://lh3.googleusercontent.com/lZXWejm5eQEZy73y6VfYVk5uDKzCg6dnhhhxEac9CCZbR81kwB-QTF7fRFBViMTQrWmxX54ppz77wHwwkcmvjxsqUYo",
+"timestamp": "2023-08-07T22:31:16.135229Z",
+"Distance": 0
+},
+{
+"guid": "6e51bd5e637b48708cf660abbb969b8d.16",
+"lat": 45.576759,
+"lng": 9.177198,
+"title": "Area Gioco per Bambini - Parco Lago Nord",
+"address": "Unnamed Road, 20037, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/DR8GXScgo5TeO4IzesX7rLlgsEOLCs8Cocw__bACdbuj9xbYXHJZ5z81rAJaMxwo5-3aqNCBdr-a6l7NYubQUsBUUrk",
+"timestamp": "2023-08-07T22:31:16.120896Z",
+"Distance": 0
+},
+{
+"guid": "bfd0e6647f8a49049cfda280e12b3a12.16",
+"lat": 45.579734,
+"lng": 9.178347,
+"title": "F.I.P.S.A.S. - Scuola Federale di Avviamento alla Pesca",
+"address": null,
+"image": "http://lh3.googleusercontent.com/M11D9u5DteKTfxp114BPUeVHKXlXK-BJA1hBpJiefwd1ZTrPXTL7Ti0ZdjR9e2fxt740sjlKXcKq6SqmMR6KohQaDwQ",
+"timestamp": "2020-02-11T01:55:30.48136Z",
+"Distance": 0
+},
+{
+"guid": "d934f8276d874e268415ce995e6549c2.16",
+"lat": 45.57295,
+"lng": 9.171759,
+"title": "Percorso Vita: Tappa 17 - Parco Toti",
+"address": "Via Renato Serra, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/ZgTyDMGTJ3lkM1hxEhANpgEQlMAj0fT3Hu-Cnwu9Me6MBM5zziAIkfQazyv2Af9ZB3kfn1hTzk-UiI-ltJZTPJx-7eI",
+"timestamp": "2020-12-29T17:33:06.297241Z",
+"Distance": 0
+},
+{
+"guid": "970dbc6ff9474e24a8f063296378e0c2.16",
+"lat": 45.579447,
+"lng": 9.178102,
+"title": "Cartello Informativo Parco Lago Nord - Paderno Dugnano",
+"address": "Via Valassina, 200, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/Ba1YSzhF9MmlBrRCriNQzfOrCgL4pVMSQeNnei4UTIaBPWfuU518kDz7meoj1TKrn3vOOksrFbyoVQg8gnP3VsW0PiHU",
+"timestamp": "2020-11-04T21:00:04.847708Z",
+"Distance": 0
+},
+{
+"guid": "c5ed6319c91e3efaabfd06d016461e13.16",
+"lat": 45.572897,
+"lng": 9.171226,
+"title": "Struttura per Trazioni",
+"address": null,
+"image": "http://lh3.googleusercontent.com/J_vYUQQbTS4yVasPzTsI-IeQLDDQN4hmymYUJ5ayvd6pCh9S0VDmYK_soubs9wkfKn1V3RKnWQoFezNlfIMNRqzb4NzjRb2bSECMm7qH",
+"timestamp": "2021-09-30T09:16:34.743882Z",
+"Distance": 0
+},
+{
+"guid": "eed3606ea1b3349a96b35d4ee11277bc.16",
+"lat": 45.574689,
+"lng": 9.171376,
+"title": "La Zona Umida",
+"address": "Via S. Michele del Carso, 59, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/pP_jw9MPT8Y8bDAdZ4GIUyo4UTcvpiftll1dtgqpYVFrKbooAhSs2GwhCgbtx-DNrWTqaKYJPB7tTRdxhJYQGq6UylwBch6yPeWMaDrctQ",
+"timestamp": "2022-02-04T17:05:26.450863Z",
+"Distance": 0
+},
+{
+"guid": "7049caa7e57f34fc8d0d1e0d4902c7ad.16",
+"lat": 45.573534,
+"lng": 9.170153,
+"title": "Dojo di allenamento - Area Fitness",
+"address": "PADERNO DUGNANO Serra/Del Carso (fr scuole Mazzini), 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/cyZdmkkqpy8VIxqniXj0_W14HHFCtwKdStqfLFMl13UU6AK0Fn8Yo1h20bRqdBoOx_nmdy9twJWfOzXfc04YWHtUsLW2hDm3NemZBIQ",
+"timestamp": "2023-08-07T22:31:16.243407Z",
+"Distance": 0
+},
+{
+"guid": "31986152828f475bbf035fc051316f1a.16",
+"lat": 45.576213,
+"lng": 9.178113,
+"title": "Percorso Vita - Tappa 13",
+"address": null,
+"image": "https://lh3.googleusercontent.com/JsaARCBVfMR302OeEdLqW0_jYK2CigjQWFACZYS3M9JSMt18j0j2GRX0rHcCQcgaUxcKX6W0-t3pYfqvheXnUIZoc4A",
+"timestamp": "2023-08-07T22:31:16.224248Z",
+"Distance": 0
+},
+{
+"guid": "fbd21607d8fb4e788d348764c8afa778.16",
+"lat": 45.573512,
+"lng": 9.173364,
+"title": "Pista di Atletica Parco Toti",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/rQ9BBLrF0jKGbAjVkAZ1WU25BzjHCf2m6fyLAjjGUyYRZTytQ66QfrSr6YddD1m2dVmei5nZJ4TfAola8amQNv-Ql8Y",
+"timestamp": "2023-08-07T22:31:16.013299Z",
+"Distance": 0
+},
+{
+"guid": "9561fa42086f4c348f5930b06f954a12.16",
+"lat": 45.574527,
+"lng": 9.173188,
+"title": "Prigione delle Ciurma del Sole",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/RLumZQmYMpFFrRJdgvkCtUVtSA2OmLtHee1YEqLxoLvM6snNGu__71zEiteOj7nC7wAFVtwYiP3Fe0z8YN45kbr0Gg",
+"timestamp": "2023-08-07T22:31:15.976806Z",
+"Distance": 0
+},
+{
+"guid": "83258ee53e254f638d499b2766edf7bf.16",
+"lat": 45.575374,
+"lng": 9.173303,
+"title": "Infopoint Parco Toti",
+"address": "Via S. Michele del Carso, 66, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/Pm3si0pVNbd97o6-XUPUz7VsdHg-82WtxwIqRu1AvcrP5ekjK3tASjKOayfXyI1OoV26diYxURFoaYU_tSZWig_LtRY4",
+"timestamp": "2023-08-07T22:31:15.964885Z",
+"Distance": 0
+},
+{
+"guid": "6666d189201e3f4cb4ccfc90efe4906c.16",
+"lat": 45.578316,
+"lng": 9.17181,
+"title": "Info Point - Ingresso al percorso pedonale",
+"address": "Via Valassina, 182, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/viXKnvu_ILG6S4GZjY17dowEjLRgx7YS7g1sIuozatZSOF8InvEMgYwxg7r33yWf_UpoZvhMsnqFHQlvM8j6gzEH2PMiPJH94JNG2QWE",
+"timestamp": "2021-10-30T14:10:46.038151Z",
+"Distance": 0
+},
+{
+"guid": "7b7a0db9cf284fc48a5efabe274664b0.16",
+"lat": 45.575312,
+"lng": 9.172078,
+"title": "Madonnina Dell'Oratorio San Luigi di Incirano",
+"address": "Via S. Michele del Carso, 71, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/47eA8iM0oi-sW9PsgKevVbcRcqpj03ekjhJbNdFMIBXg2F6c16KitauP6EL9UOyI69rl0Nk8uaJcvw_TYZSobPKABQ",
+"timestamp": "2023-08-07T22:31:16.600864Z",
+"Distance": 0
+},
+{
+"guid": "3016d37df3b549d0b066ea092f535dab.16",
+"lat": 45.5731,
+"lng": 9.173268,
+"title": "Stadio Comunale del Parco Toti di Paderno Dugnano",
+"address": "Via Aurora, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/ihjRyRHXI7rA38FJBUvJ5vLw5oJPkNcAnWVqYTbVcIfyxPTrYs8FN9qesRwFA9k4sY_a5P_Uhe6Sn3sN55A1FtMp2duW",
+"timestamp": "2023-08-07T22:31:16.349033Z",
+"Distance": 0
+},
+{
+"guid": "007c42842fd23813988a9266ab6d9f10.16",
+"lat": 45.577593,
+"lng": 9.176892,
+"title": "Il Bosco - Cartello Informativo",
+"address": null,
+"image": "https://lh3.googleusercontent.com/kWaxfE1f81rWYBi5Z0bUOWmZl0dwrbhUgVetgmAZgtJPJBqYtuOVzzBTF5BapSdn6kPFwpuQonq0wgsSYgLlvL21PrzwwmZ4oUg0Q14",
+"timestamp": "2023-08-07T22:31:16.175982Z",
+"Distance": 0
+},
+{
+"guid": "52b837dc607f4aefb942d55a5e10170c.16",
+"lat": 45.573418,
+"lng": 9.175197,
+"title": "Percorso Vita: Tappa 6 - Parco Toti",
+"address": "SP35, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/W3x0AvitBsGSLE1fTW5C4Y5YEPfQq7ahLFD3LFVSVTbtgsiHJcpClW0uhploj9SakfC8nkC2CQ7DDeW_8QJ7I0CGKPWQ",
+"timestamp": "2023-08-07T22:31:16.024712Z",
+"Distance": 0
+},
+{
+"guid": "96228625562f40b7b150d685a311db6f.16",
+"lat": 45.574613,
+"lng": 9.173499,
+"title": "Veliero in Costruzione",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/RqFxUY1qQd7QP29tr9Xdj9xpao9PWMA4ixPZS3b7nCtTZnwqPDEL0qNGKj8Wcf7VuSga3dpClNv53e6h35RscYH67Y0",
+"timestamp": "2023-08-07T22:31:15.988552Z",
+"Distance": 0
+},
+{
+"guid": "5fd9edd1bab54e528e66999b1ff3f19e.16",
+"lat": 45.578273,
+"lng": 9.177702,
+"title": "Cartello - Piante Protette",
+"address": null,
+"image": "https://lh3.googleusercontent.com/1kZn61ksOKk6Xpx64QC5OBwQ3uXAjYVw8flH13u2eTCbHEabuehXf1MnzfrLLshqhY-Dg2ggAYg5QPk76mSoSmYAxg",
+"timestamp": "2023-08-07T22:31:15.834978Z",
+"Distance": 0
+},
+{
+"guid": "587e49a2ed1c435785a69e193f482e92.16",
+"lat": 45.579288,
+"lng": 9.179099,
+"title": "Skate Race",
+"address": "Via Copernico, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/USKycLMy_JdzaybcItXnyiqk_1tU5UPpU5DIRccSIjhN2q9jFIdYm9ytxROiHEDMYMRc4KJ7k7WWRje53zfyYUdzeA",
+"timestamp": "2023-08-07T22:31:15.811374Z",
+"Distance": 0
+},
+{
+"guid": "b4f56d6153b84f5f9d92deb596c4af88.16",
+"lat": 45.579516,
+"lng": 9.177831,
+"title": "Porta Luigi Tonelli - Parco Lago Nord",
+"address": "Via Valassina, 20037 Paderno Dugnano, Milan, Italy",
+"image": "http://lh3.googleusercontent.com/skI9WFKQeS9peippRDTSLgi-ro9j9JDTtuaYHnx9y45H2-dn3LcKGoW7UxcFHFiAd5amUzOfVqZ4GVWqRNvtxHohJO7V",
+"timestamp": "2020-03-08T13:20:49.58681Z",
+"Distance": 0
+},
+{
+"guid": "d6c41ea975bf39ff9fd6df8b2f2360ba.16",
+"lat": 45.575647,
+"lng": 9.17457,
+"title": "Playground con Scivolo e Altalena Inclusiva",
+"address": null,
+"image": "http://lh3.googleusercontent.com/uTnH-1FKok-8Xn6x3V4Eo__QcpTItZNZnjl-jmQiIAvwLZ38iPD0ZSH6mfWsIn2j0-faHaCx-xvN7pN9lzrEKf5qm2b63Ydx9XNZl3He",
+"timestamp": "2021-09-30T09:16:34.510663Z",
+"Distance": 0
+},
+{
+"guid": "014b1c7b1e4c3018a611b0471b41d9d8.16",
+"lat": 45.574458,
+"lng": 9.175081,
+"title": "Prugnolo - Prunus Spinosa",
+"address": null,
+"image": "http://lh3.googleusercontent.com/ZBZj8A0g6SN1vTK0yxBEZOsUOZObZT0R_HEESOhQuFIwM9vmNu5aXoSZV8x2DWDY6l28Z8tesJTprJB6tJx1qkL4oSiu6TjiqY73oWWS",
+"timestamp": "2021-10-05T14:44:00.685993Z",
+"Distance": 0
+},
+{
+"guid": "8efc1f7834c73404a6a6590bc95194c8.16",
+"lat": 45.57508,
+"lng": 9.172788,
+"title": "L'albero della vita",
+"address": "Via S. Michele del Carso, 62, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/zmWfVMcgWTLUMS22n3hJ0jWjyE4k8FtFNOOWpN7HfwBwmYK95TzZSI2ToVNJLeCyIoBHcBuH7WistuIlg3N47lzNzLloLlAEsPm1dGM",
+"timestamp": "2022-02-04T17:06:25.833315Z",
+"Distance": 0
+},
+{
+"guid": "f8f678acc8a0496297d82b229775e24a.16",
+"lat": 45.578434,
+"lng": 9.171495,
+"title": "Parco Grugnotorto Villoresi e Brianza Centrale",
+"address": "Via Valassina, 79, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/-B8FBg-qXJPJxly_OPwcg8hcsFvA6a9T26spE-b9b4yKOcHO7HhTtcaGevKuJRFZNiD6TwRQd-EUtxai1xOMp_alOA",
+"timestamp": "2023-08-07T22:31:16.31535Z",
+"Distance": 0
+},
+{
+"guid": "31229638662c371ab876e82afb8ee80c.16",
+"lat": 45.572891,
+"lng": 9.170665,
+"title": "Percorso Vita: Tappa 14 - Parco Toti",
+"address": "Via Renato Serra, 25, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/dD4JWsM4DIMGaJhiouGO8mvH4kr_0jaWkYRKyRkyFhYgcqgY7xz8u0LfJ8XVgo11-5mV9ysL7yzbLRSBlZ7TabkVDZeXgmFtxinXOYMF",
+"timestamp": "2023-08-07T22:31:16.235135Z",
+"Distance": 0
+},
+{
+"guid": "6ad14e2bd55c3a31928f1102813ce9da.16",
+"lat": 45.577078,
+"lng": 9.176722,
+"title": "Cartello Informativo - I rettili",
+"address": null,
+"image": "https://lh3.googleusercontent.com/hCvMYsfumj3cyxYQ333eV9Fs1wHJPnKiZ8KLWIPZHhm5fwBKrKfLRgm-jukwJPsq_5svlkDCdxkV-au5SK16URbM0nemTKEKCYtBDe0",
+"timestamp": "2023-08-07T22:31:16.14959Z",
+"Distance": 0
+},
+{
+"guid": "834a91f95d2349a5a88d8569bb9d7012.16",
+"lat": 45.573749,
+"lng": 9.175007,
+"title": "Percorso Vita: Tappa 7 - Parco Toti",
+"address": "SP35, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/9rk9bbVhcYjA2xtj1UGU3m3KribDgtkwEILtohvw89-uR2hurbI5tZFD_YuTuw2FNgHvIEEv3r4T4gwPnijVNTygn_4",
+"timestamp": "2023-08-07T22:31:15.881895Z",
+"Distance": 0
+},
+{
+"guid": "3e4f813c33ab30f4b7189f2320edfc98.16",
+"lat": 45.578442,
+"lng": 9.170904,
+"title": "Playground - via Valassina",
+"address": "Via Valassina, 180, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/YH0FfOgABmhyTmoemwm4pVu274Lopib02QwTEKYsEVvx1VaEuRB9xHywIlutnEd7Ke22kHTlnst7c7AgWj59RqTtlDGvl5VrQWhN6aM3",
+"timestamp": "2021-10-30T14:10:46.0324Z",
+"Distance": 0
+},
+{
+"guid": "1da318e9176e3108aa23fa5a72da1273.16",
+"lat": 45.573839,
+"lng": 9.175689,
+"title": "Bosco di quercia rossa",
+"address": null,
+"image": "http://lh3.googleusercontent.com/qWtYfm_sqUFseWW1kOHFxbvL2KvdSJBtlq_edDGl27LInnk64Cm6HTncGjvmxU8BpEjkXCHTFDzyuBocOm4fEtO-GGOvJdqAEe9HuCTW",
+"timestamp": "2021-09-30T09:16:34.733418Z",
+"Distance": 0
+},
+{
+"guid": "d9d97c0300db3de5b94cb69413df90c9.16",
+"lat": 45.573272,
+"lng": 9.176006,
+"title": "Info Point - Area per Imparare",
+"address": "H5FG+8C Paderno Dugnano, Metropolitan City of Milan, Italy",
+"image": "http://lh3.googleusercontent.com/YAIwEmFXhuIdnxqCGjB5hWvEL5CRKjZ_RuMcf152PVNeGokqpPBBB6law8sMjr11GFJ62J9W1eeC4vZr4E1WcMxUAkIXvvghMxc3Ylnw",
+"timestamp": "2022-02-03T11:56:34.053792Z",
+"Distance": 0
+},
+{
+"guid": "7044ceeb0f8d324086c521b07923a3ce.16",
+"lat": 45.57566,
+"lng": 9.174295,
+"title": "Area per esplorare - Cartello Informativo",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/gnjgr6r0otbqrhpC6Y_0IlTQ_UXauMHyEfQaMKiN__iZ0pwJiYxB0oVa3sL5CRu6z9b-I7mon8i1kddZT9Cnx6_AnjL9qEP1nzRC2hvK",
+"timestamp": "2022-02-04T17:06:25.85191Z",
+"Distance": 0
+},
+{
+"guid": "b48823189e3c30b7b9cfe294e264983b.16",
+"lat": 45.575924,
+"lng": 9.179323,
+"title": "Area per esplorare - Cartello Informativo",
+"address": "Strada Statale dei Giovi, 35, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/mhNcCZWdRgXrG4UcGKVi8thrVRl6NDf7MwJLY14e3qj-t_9CF8gb7c1Ah5fyt_e4NYPhXISCFZ0K2bxsvCOAz8htGwuOEl0gBL2fUyOY",
+"timestamp": "2022-02-21T16:21:10.601087Z",
+"Distance": 0
+},
+{
+"guid": "c4a55393206a302e904e58402f2c2bb1.16",
+"lat": 45.573668,
+"lng": 9.175398,
+"title": "Area giochi con ping pong",
+"address": "SP35, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/VhBGAMx7SoQM3B5QVyP67bFN2YUHCZBKfBdnkpwFh9n995Sy2ypvo523LuIRxq-SN-USo4WD3VtReE9_T6IQ72QpZSJ4FywerU2_AX0",
+"timestamp": "2023-08-07T22:31:16.692555Z",
+"Distance": 0
+},
+{
+"guid": "443b129b7e0d33828984f93b53e7095f.16",
+"lat": 45.575276,
+"lng": 9.17285,
+"title": "Parco Grubrià",
+"address": "Via S. Michele del Carso, 62, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/6qalLJEUxu0JAmWHunlNAKUz5VLTcysYxgLe2gcnn0efLE92tiV-KG6-tqCZ_Ef6YTLZ_RcgZEoAdVfigQePVKD6mLvrHYxiLr-RLxO7TQ",
+"timestamp": "2023-08-07T22:31:16.682031Z",
+"Distance": 0
+},
+{
+"guid": "401f1a04995843fb9f143e5542067925.16",
+"lat": 45.574908,
+"lng": 9.170549,
+"title": "Centro Cardinal Colombo",
+"address": "Via S. Michele del Carso, 59, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/nM3exm6q36vBSBaC-UDlpuS3FaQ20w6KNqPDgwp_JbJfL1UZtynG469FYXuAYLCrKm5cx0hZ5tGwWGPyDG1_szPEhY0",
+"timestamp": "2023-08-07T22:31:16.624353Z",
+"Distance": 0
+},
+{
+"guid": "bbba60ba6e7d44eb8500814e6a31f14b.16",
+"lat": 45.576429,
+"lng": 9.175916,
+"title": "Ponte di legno d’accesso al Parco",
+"address": "Unnamed Road, 20037, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/_xQBDBVzPlZ5HuyecM-Xhhx8n2MQSGG2rDIo6mrnQNuCWi_M86ETq1fjzPrgm8As2j5VSOyvECjEEizbgv_Y1lkLVA",
+"timestamp": "2023-08-07T22:31:16.522965Z",
+"Distance": 0
+},
+{
+"guid": "e9f19fe7f46b4f8b8863897f5cc66ca9.16",
+"lat": 45.572978,
+"lng": 9.17276,
+"title": "Cartello Informativo del Parco",
+"address": "Via Renato Serra, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/rOcLarWxgVargg8n5q3gRXVisXqQGUvS7bOU-soqZA4Uh5u8uC-QPl3rFm_M-3fV0GkAQqYmiZB_wlRBjt_q10uijQ",
+"timestamp": "2023-08-07T22:31:16.440672Z",
+"Distance": 0
+},
+{
+"guid": "91d338a307d64474a9bbee56ecbe80ae.16",
+"lat": 45.573057,
+"lng": 9.175078,
+"title": "Percorso Vita: Tappa 5 - Parco Toti",
+"address": "Via Valentino Mazzola, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/xiZSgNpRrlMkwzdyJeCfWukuIxGzkvxo_Hjc6FpUav2C7Rcx5JZ6elyOajMtgOi2ntt7HYx_4izd-uwvDAvLsy74IbY",
+"timestamp": "2023-08-07T22:31:16.332412Z",
+"Distance": 0
+},
+{
+"guid": "490cb3809fab4309824c48ba13170702.16",
+"lat": 45.575992,
+"lng": 9.178948,
+"title": "Percorso Vita - Tappa 11",
+"address": null,
+"image": "https://lh3.googleusercontent.com/I-h0IZsWzgxlF3Aw0gNq-ZUTf1GgZg0_OKdLZTh9nnTtBAGsGsiLTMpH0MqsOnQDRthJAMukYQNfHmhDGUr3ayKc2-Y",
+"timestamp": "2023-08-07T22:31:16.201579Z",
+"Distance": 0
+},
+{
+"guid": "c7490fd96d64355a85a58afb9f51bf35.16",
+"lat": 45.577,
+"lng": 9.178021,
+"title": "Luccio - Cartello informativo",
+"address": null,
+"image": "https://lh3.googleusercontent.com/L46KWHlsdxgTv7lWdzNwuSzrNuWBqPJb_l_p1t-FFHF7AibOAPeCHEnOJszRSZ5A-HzbWu3LIY1cbKqIMkKz_eu18MTq92s9eZbe_icg",
+"timestamp": "2023-08-07T22:31:16.095795Z",
+"Distance": 0
+},
+{
+"guid": "989c1fa73bc744bfab55bb6f28486d49.16",
+"lat": 45.574012,
+"lng": 9.174891,
+"title": "Percorso Vita: Tappa 9 - Parco Toti",
+"address": "SP35, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/-hN01zWQXXnq1S-R_sozdNQXbEb71i_oMZ8SHtf-8iMN_3F34pAT0oa6bkmiFHp_dTLeV_Wy444Yiv2Fxh-lcgnBxXZG",
+"timestamp": "2023-08-07T22:31:16.079183Z",
+"Distance": 0
+},
+{
+"guid": "b779390f364442f890c282308043e353.16",
+"lat": 45.574508,
+"lng": 9.172716,
+"title": "Torre di Vedetta della Ciurma del Sole",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/S9FkSRit6pAp3ufyuTPfSGlmXrzflyJdNOz4jFot0YMtL_32sGjULJJL9BucAg8EntQSAWt1mQ32uqbBNyw4oLKs-w",
+"timestamp": "2023-08-07T22:31:16.051123Z",
+"Distance": 0
+},
+{
+"guid": "dd89b3e28ebc47119389f33e5b5da67e.16",
+"lat": 45.574148,
+"lng": 9.174559,
+"title": "Percorso Vita: Tappa 10 - Parco Toti",
+"address": null,
+"image": "https://lh3.googleusercontent.com/ulU-B89EEB8WoX9iNG5UFn31FFM2S6sQ-t9UaODp4OaSjIlskR4zwGE1LogVRH6c_IyJ69yuuxSrfH8JUfr24ZQ7a03I",
+"timestamp": "2023-08-07T22:31:16.038892Z",
+"Distance": 0
+},
+{
+"guid": "c03edcc5cf534ff28e515c27dab264f2.16",
+"lat": 45.574053,
+"lng": 9.173304,
+"title": "InfoPercorsi Parco Toti",
+"address": null,
+"image": "https://lh3.googleusercontent.com/daoR5_NK5pS_37Jj6im0cG2Bg5e2UrHYc4KOFUxj7YV1LLI16HckHPp3dyueWzfpHAZOGRh9eBlqC6I3cV8yPtfhfw",
+"timestamp": "2023-08-07T22:31:15.942594Z",
+"Distance": 0
+},
+{
+"guid": "17b480871730481ebef206bcf90fae63.16",
+"lat": 45.574033,
+"lng": 9.172602,
+"title": "Veliero Dirottato",
+"address": "Via Aurora, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/vndUEzUC_upns4aVmVnfmqmYTlkTpXJr9Mo7ktZR9SbwlqBkcLIP7HfNDZ6RHXWT3F1WHpH3Bt-Fc0JMN-grSdQDF1I",
+"timestamp": "2023-08-07T22:31:15.929101Z",
+"Distance": 0
+},
+{
+"guid": "f9d48b87420d4884b6fd3a235c1d0ceb.16",
+"lat": 45.573854,
+"lng": 9.174614,
+"title": "Percorso Vita: Tappa 8 - Parco Toti",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/jqo--KKrM7qXU4wAe-BL8vluHK2uyXD0YEqnH65qtHqesQFPig2-wrVQYxJ1lUcumHxpy1dsqSQ4KGmPEcADH2RnsVjU",
+"timestamp": "2023-08-07T22:31:15.905621Z",
+"Distance": 0
+},
+{
+"guid": "8efa1bd6c3e237b6b778e9a260a57b55.16",
+"lat": 45.574486,
+"lng": 9.174781,
+"title": "Area allenamento - Attrezzi per rinforzamento",
+"address": null,
+"image": "https://lh3.googleusercontent.com/fuHi3leGU8BnUAYKFpa-sade6YOLC3p7GxhM6EeLAwJVBUo0Tu9Kv60bo8LwqMv-KcpZ_ATnPJmnDE9JjrIaph2mMDfgR6tnL2qKyMAn",
+"timestamp": "2023-08-07T22:31:15.869848Z",
+"Distance": 0
+},
+{
+"guid": "44decbc1fd4c4104a2e1cd58f7f2520a.16",
+"lat": 45.579131,
+"lng": 9.179377,
+"title": "Area Giochi - Parco Lago Nord",
+"address": "Via Valassina, 202, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/EybCiueYBijr-Dd-Y10j2mYjfloQVTYXZSamViEdRc52HU34lFmYM1qZJXBOpsRMspO-4Lqtz3OcXSbFRfMQ9TQbixa8",
+"timestamp": "2023-08-07T22:31:15.846689Z",
+"Distance": 0
+},
+{
+"guid": "2d36e977216044cdaa8df3b0e328a568.16",
+"lat": 45.578221,
+"lng": 9.176808,
+"title": "Cascata Parco Delle Cave",
+"address": "Via Valassina, 85, 20037 Paderno Dugnano, Milan, Italy",
+"image": "https://lh3.googleusercontent.com/7LgEvy2c5lWwG8hxjy5Ua2XLHl7dJqmKXOUY41Hl8e_r5lKUtoZNYtdm_LPLKlyrUbnsq2vVNpLA37ADOJLjfIn2sWCB",
+"timestamp": "2023-08-07T22:31:15.822745Z",
+"Distance": 0
+},
+{
+"guid": "f89514f9d8e433fd823680aafd202ac0.16",
+"lat": 45.574882,
+"lng": 9.169764,
+"title": "Targa dedicata ad Agostino Ribildi",
+"address": "Via Montecamino, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/WhJKkQuj7zVm33kz6Mg7OI2sh5OxBfhVIhShUdbBhDsg01P3lmdfzMsAOMm_OXECddpqjXOqGp-tIayhirb2Qsa1JEnayr8KCitwcxHk",
+"timestamp": "2021-11-15T20:00:22.122627Z",
+"Distance": 0
+},
+{
+"guid": "8ecd94bac95b3e64be208e7c989cbdca.16",
+"lat": 45.574329,
+"lng": 9.172463,
+"title": "Scivolo singolo con panchina",
+"address": null,
+"image": "http://lh3.googleusercontent.com/SDnUIeKq8HbK8ATRJCjYUbjhVuHikFlBpzJskoxeKlm4S_dLaH3NzWYAVxHJTzzu6GpHuV0-yY66Lyb7T7czSFU4YQHuFIPEKlt9KVs",
+"timestamp": "2021-09-30T09:16:34.437416Z",
+"Distance": 0
+},
+{
+"guid": "d46cfe8007903db6b969c5b9ed753336.16",
+"lat": 45.578601,
+"lng": 9.172786,
+"title": "Biancospino - Crataegus Monogyna",
+"address": "Via Valassina, 79, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/uOfxA85s_WA2GELu3OiBWx5dsED5n6DhDP7IXblT2qjWb5u1CXfzsqdjXTT0bINERKGOCTzsoYEFN0XyyhKjM7V1DCN5zarmIupEKeA",
+"timestamp": "2021-10-30T14:10:46.040854Z",
+"Distance": 0
+},
+{
+"guid": "b07d4f8229a137dc99cc11d86178c0d3.16",
+"lat": 45.575756,
+"lng": 9.173713,
+"title": "Sambuco - Sambucus",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/XnrIFFci1IF5PgqQDPM3aXMoOa8uNiiY74rjtj1zioRG690snqr5b7mWqFE0DCFrwLG8GdHwhq4FW7nJoWQ4jz24qB6BXYjXG2M8h78",
+"timestamp": "2022-02-04T17:06:25.844412Z",
+"Distance": 0
+},
+{
+"guid": "b02374463c2d38289dd39404e6ed497d.16",
+"lat": 45.574608,
+"lng": 9.17024,
+"title": "Pino Domestico - Pinus Pinea L.",
+"address": "Via S. Michele del Carso, 53, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/RPGKjQnKFIWwa1sGJwcy15t5I92bt_vDSYpegCWxZpohqPGvnWykLBM2fOvNbTPK_BKiTahx0aYxY2q4GgZ8ceUaafzWJ1r568DDZzU",
+"timestamp": "2022-02-04T17:05:26.438335Z",
+"Distance": 0
+},
+{
+"guid": "f33afa8d100731be961a40f72f6fd3e1.16",
+"lat": 45.573788,
+"lng": 9.170892,
+"title": "Rifugio Millepiedi in Legno",
+"address": null,
+"image": "https://lh3.googleusercontent.com/9XRXMXKNZjiCGfdsJwFevQJPXmiAeO1iyO4ALKXAOA0JN4lDj3w2fAwIGIN8sAK0y04GsHCKSHZN0rn4av0yrolQ2vNKHQAoexy-Jh0",
+"timestamp": "2023-08-07T22:31:16.647751Z",
+"Distance": 0
+},
+{
+"guid": "8313f09baa5840d6b49e97360f83ca2f.16",
+"lat": 45.576114,
+"lng": 9.174951,
+"title": "Bacheca Informativa - Parco Lago Nord",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/SLBSRqsLgHRYNNwbU7jDDfbEqqxzz5TuuP5EZ6x6dhDAqFiSlbbH1y5DzcJ61cXsVhgpoRBqus43CHED0BrYMGhQTVHj",
+"timestamp": "2023-08-07T22:31:16.533696Z",
+"Distance": 0
+},
+{
+"guid": "788ff46671984f6b90be2679d64058b4.16",
+"lat": 45.575679,
+"lng": 9.178947,
+"title": "Porta Serviane Parco Lago Nord",
+"address": "Superstrada Milano - Meda - Lentate, 20037 Paderno Dugnano, Milan, Italy",
+"image": "https://lh3.googleusercontent.com/dYJxTZCmA8t_OwJ4PiZto4tu63xYGWV0ZrGQC7eG7s1mVGpPm_gajrLBOCBQmOr0dUdzXjK2miToSvqe-dJ8D2PYBG-S",
+"timestamp": "2023-08-07T22:31:16.474416Z",
+"Distance": 0
+},
+{
+"guid": "49a3359987f740c4bd78b22b73c07d6a.16",
+"lat": 45.573496,
+"lng": 9.170781,
+"title": "Area Cani Parco Toti",
+"address": "PADERNO DUGNANO Serra/Del Carso (fr scuole Mazzini), 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/gL-sWa3EMvEgkdPpuvuU0zHqkvM9GAjF6kwPhTWfMYcxQt4jDS2_EB298a7v3P1aMwfjwloQY-HdtEwKfQ4W2RkSLag",
+"timestamp": "2023-08-07T22:31:16.254115Z",
+"Distance": 0
+},
+{
+"guid": "94203687dde948a08b4ada87669d2af0.16",
+"lat": 45.573687,
+"lng": 9.172969,
+"title": "Set esercizi Atletica Parco Toti",
+"address": "Via Aurora, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/hpRlHhqbsX1ACsYRuT8raepWyfx-mdC69sjAgclydUl4xv1GN6HyRH9xmC8GUFkGZCiTYmm39e7402fOPQ2yyiy7yoM",
+"timestamp": "2023-08-07T22:31:16.000172Z",
+"Distance": 0
+},
+{
+"guid": "1406e2b8270c44479a72de81e63d162c.16",
+"lat": 45.578904,
+"lng": 9.179459,
+"title": "Spirale Cava Nord",
+"address": "Via Copernico, 20037 Paderno Dugnano, Milan, Italy",
+"image": "https://lh3.googleusercontent.com/27Qc4pyIO7zFv7KbUMhUaEoIkINVAmxBU2TXtra9_M5Lp9dT5FJV3Y5Oo0gE8UcBT_e8Fd_4bh7nH9ZHNiGjIaNgxZ4",
+"timestamp": "2023-08-07T22:31:15.858466Z",
+"Distance": 0
+},
+{
+"guid": "c6384950b8c63c1d95ef503c2c7ac9b7.16",
+"lat": 45.573814,
+"lng": 9.175674,
+"title": "Altarino con affresco della crocifissione",
+"address": null,
+"image": "http://lh3.googleusercontent.com/BCflGWt3vJgLuYoPHUyxWYIHlciONrtxQwf1GTh8DNhOxm8_VdH1shfHkqafQCiUTjm6cZMbm0jigqteghTdQL3e7SZDM1EyGLDqKGxl4w",
+"timestamp": "2022-07-13T15:10:37.324782Z",
+"Distance": 0
+},
+{
+"guid": "00e84c42b5d94cdfa1f42037c9c52626.16",
+"lat": 45.577294,
+"lng": 9.179275,
+"title": "Memorial Totem",
+"address": "Via Copernico, 20037 Paderno Dugnano, Milan, Italy",
+"image": "https://lh3.googleusercontent.com/ImfoYnPOWxFbJBYpI8yX3YWd7dCM-s851DGXbovloJdJy2hFa6hxv7EGirL--PRP9txO-bKlRfLELOanq_pqKJeaZzg",
+"timestamp": "2023-08-07T22:31:16.106424Z",
+"Distance": 0
+},
+{
+"guid": "74920d87ae5244e2be6a4061a11f0871.16",
+"lat": 45.575796,
+"lng": 9.174054,
+"title": "Parco Grugnotorto Villoresi - Parco locale di interesse sovracomunale",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "http://lh3.googleusercontent.com/iuYNBLzR6hJcqaFqEFEUEGMIEiBH48HFWmiHfNP8x-VTjT-yHLN2KHRwed7u2eTj0vcycanA0rs5uEGztQ0y6GfPFOA",
+"timestamp": "2020-11-05T22:21:45.638601Z",
+"Distance": 0
+},
+{
+"guid": "0a686f0f7a5c3ed8a7efdfb42bf45bc1.16",
+"lat": 45.573272,
+"lng": 9.171177,
+"title": "Altalena con cavallini - Parco Toti",
+"address": null,
+"image": "http://lh3.googleusercontent.com/JarCjRDsI-Yky-HKyI808SqT0F2B6ac-Np37tbFG06BzCHYx3kaeZA1whZzzX02ID66z0-9BVjDiD4fR4_jJUVj20265eAA5AncKG_Y",
+"timestamp": "2021-09-30T09:16:34.763912Z",
+"Distance": 0
+},
+{
+"guid": "b871522560cb3c989f3f06ad76de4be2.16",
+"lat": 45.572856,
+"lng": 9.172101,
+"title": "Playground - I tre scivoli",
+"address": null,
+"image": "http://lh3.googleusercontent.com/jp7ZJCLM6gbPv_TzavzRmWidIK_T-asBBSu5TcJiP4LG02BBlTBi4-MiZEC-wM7NdXD8_SfFC4qmlNdDQW3Q5boKmIi6wCJkuleeNRhA",
+"timestamp": "2021-09-30T09:16:34.770414Z",
+"Distance": 0
+},
+{
+"guid": "dab5a027002b3e3984a624536c9e3532.16",
+"lat": 45.576278,
+"lng": 9.174618,
+"title": "Evonimo - Euonymus Europaeus",
+"address": null,
+"image": "http://lh3.googleusercontent.com/vbLRvGq0UIJEwD91XR42XeTnzgBqR7SkYw2rpMzIQEwo13Dx01PU4bPjWuN7bg4fJfo-v_sJsfSg8vs7qXvSC8TnEis4MA63227Sixdw",
+"timestamp": "2021-10-05T15:25:21.044882Z",
+"Distance": 0
+},
+{
+"guid": "9a5202070f653833a164e5c5c27f6ce6.16",
+"lat": 45.578387,
+"lng": 9.170797,
+"title": "Cartello sulla natura - Il Bosco",
+"address": null,
+"image": "http://lh3.googleusercontent.com/j5dXdKlA2DxUQj0F3uB50Mt_wdbQ13PwlSJZwQtd8ZUHmsWekMTO1HxWgzMzgLOeiGulDFxKB3lJVhIzyfLTW8EWn0yHGpgxZvqlB-A",
+"timestamp": "2022-07-13T15:10:37.139953Z",
+"Distance": 0
+},
+{
+"guid": "0a24acfb4b934402928633c5d3bdf15e.16",
+"lat": 45.574986,
+"lng": 9.171034,
+"title": "Oratorio S. Luigi Incirano",
+"address": "Via S. Michele del Carso, 59, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/KNiFVP0IqUq52Et3dApHMRQMoOFqNLN8COOV9LPIk7YmuKXiy0MrSAjxqVuPvaG53IhaM2Gg2fff9cHWXcN3-BQAJeo",
+"timestamp": "2023-08-07T22:31:16.635182Z",
+"Distance": 0
+},
+{
+"guid": "a6843186d80f4e5bb6372f604839d53f.16",
+"lat": 45.575096,
+"lng": 9.171609,
+"title": "Campo da calcio a 11 di Incirano",
+"address": "Via S. Michele del Carso, 71, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/gE4H7sjczznQlMZtgzyjvL82G37b51sjP5xGTNNqy_ewU130KbPVQHwkX7Kg9bkCjsJsY5fgpFF0CV-QtcVaBKDabJI",
+"timestamp": "2023-08-07T22:31:16.612254Z",
+"Distance": 0
+},
+{
+"guid": "0ec5c7187e2e44bebfdefd5959ae7262.16",
+"lat": 45.576113,
+"lng": 9.175469,
+"title": "Parco GruBrìa",
+"address": "Via S. Michele del Carso, 82, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/X6sy9RW-AYqDkWj_csFwhiPSI3a3lSlxADfPf1mcmXehZV9GwRQw-YKNIweYUwqapQ0oY770Ecgkx179UeRrAYeD9B4",
+"timestamp": "2023-08-07T22:31:16.510844Z",
+"Distance": 0
+},
+{
+"guid": "b1eb27d2ae723ef88758969625dbc0d8.16",
+"lat": 45.577163,
+"lng": 9.17635,
+"title": "Inizio del Percorso Salute",
+"address": null,
+"image": "https://lh3.googleusercontent.com/GJo-urlX5Nkbawj27M4_24u4bi3xVQzadtmWgMPg0O2EL1OXEAStDOucRTR9tAe85PJOe9Af4N4jXFMpocRlloFvHepz7L5-KhDCfapN",
+"timestamp": "2023-08-07T22:31:16.49831Z",
+"Distance": 0
+},
+{
+"guid": "d35d22e7fadd4e2397e3d0c43fc28589.16",
+"lat": 45.572907,
+"lng": 9.17376,
+"title": "Postazione del Salto in Lungo - Parco Toti",
+"address": "Via Renato Serra, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/r5I4f8qfi7nuXa9xD61wpi5381h7NiZ-3Dzo4uMUTokjLFZQX_531qUSOwpajufDf71_HDlH5lWL32dEmYKpjyFFJ-8",
+"timestamp": "2023-08-07T22:31:16.430063Z",
+"Distance": 0
+},
+{
+"guid": "81b3a4dc61934bb88ef8ca21daf1cc4e.16",
+"lat": 45.572876,
+"lng": 9.173122,
+"title": "Cartello area gioco bimbi",
+"address": "Via Renato Serra, 2, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/4MP6eJBHckpU8jpnnaGDjSGVgYlmOQlaR_FcJ6pO4cpNNvi6SX5VxtxIjdsBLT-QE7vhX5s2dbAMlBB5VYc4j9kErQ",
+"timestamp": "2023-08-07T22:31:16.41576Z",
+"Distance": 0
+},
+{
+"guid": "989ba9a6e9b64c8f883a0746079affa5.16",
+"lat": 45.577354,
+"lng": 9.177509,
+"title": "Carpodromo - Pesca al Rilascio",
+"address": "Unnamed Road, 20037, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/WcoRNmGQnkkKImkkyc0ZHRdriLELkPFz-mUUP2EvSxawb4D4z2085l2gYoAz0QBV6TOLAcgy8DYtvIR8fRgBfRzvvg",
+"timestamp": "2023-08-07T22:31:16.19035Z",
+"Distance": 0
+},
+{
+"guid": "24518aabd68d4d81b4172938699f4e78.16",
+"lat": 45.574714,
+"lng": 9.173057,
+"title": "Rifugio Pirata",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/1IT0y7rbzSOdtQkKdqA9LA5eyqf7IpQGcEp7_BUeikJyGooVjtU7vVui94qzRjyo-82UT0VkwiBu8-z5ifzlfrGNhmE",
+"timestamp": "2023-08-07T22:31:16.065293Z",
+"Distance": 0
+},
+{
+"guid": "dcc6bc34df894dc6ae438293e8040e57.16",
+"lat": 45.57427,
+"lng": 9.173435,
+"title": "Veliero del Sole",
+"address": "Unnamed Road, 20037 Paderno Dugnano MI, Italy",
+"image": "https://lh3.googleusercontent.com/Rg3wc_J6Foo84GoAYFQuyj_eAk43R_mkYi1EVKMe5U8JRiFazt1uWmd1tH5_CR4k73WBRR_m7irktw6D-boSenafprk3",
+"timestamp": "2023-08-07T22:31:15.953503Z",
+"Distance": 0
+},
+{
+"guid": "10973182d22a4791b014ef046e671df6.16",
+"lat": 45.574092,
+"lng": 9.173191,
+"title": "Teleferica di Arrembaggio",
+"address": null,
+"image": "https://lh3.googleusercontent.com/BwiyDRDva4priw9eKdSsbMOK2rG65JIaad1XI9Pa_Uf5sxeG5yK99m8QpiB1SwN79dfpXDk1nTO6Xhek3J7eH-FvPVQ",
+"timestamp": "2023-08-07T22:31:15.916937Z",
+"Distance": 0
+},
+{
+"guid": "f33bbed5102f4e19a1c9cfc9c68cf11c.16",
+"lat": 45.574311,
+"lng": 9.174235,
+"title": "Percorso Vita: Tappa 11 - Parco Toti",
+"address": null,
+"image": "https://lh3.googleusercontent.com/GX_ykIkKKhRlS4RAk_D18M11msw0S0F2JjTbXTqR9w5bvNG7yvLY4iTB3v_AeR_7g6K2CUc_8npByrb8oXUkep_qsYpa",
+"timestamp": "2023-08-07T22:31:15.893557Z",
+"Distance": 0
+}
+]
