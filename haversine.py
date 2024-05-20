@@ -10,7 +10,8 @@ def haversine(lon1, lat1, lon2, lat2):
     a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
     c = 2 * asin(sqrt(a))
     r = 6371  # Radius of Earth in kilometers
-    return c * r
+    #returns in meters
+    return c * r * 1000
 
 # Example usage:
 # lon1, lat1 = coordinates of the point
