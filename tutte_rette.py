@@ -6,11 +6,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import haversine as hv
 import math
+import time
+start_time = time.time()
+
 
 # Parametri configurabili
 FILENAME_JSON="san_siro.json"
-NUM_PUNTI_MIN = 2  # Numero minimo di punti allineati
-DISTANZA_MAX = 20  # Distanza massima dalla linea retta (in metri)
+NUM_PUNTI_MIN = 40  # Numero minimo di punti allineati
+DISTANZA_MAX = 5  # Distanza massima dalla linea retta (in metri)
 DISTANZA_MIN_PUNTI = 50  # Distanza minima tra i punti (in metri)
 
 
@@ -33,10 +36,9 @@ def distance_from_line(punto,slope,intercept):
     intercept_perp = punto.y - (punto.x * slope_perp)
     a_perp = (slope * punto.y + punto.x - intercept * slope) / (slope ** 2 + 1)
     b_perp =  slope_perp * a_perp + intercept_perp
-    
-    return hv.haversine(a_perp, b_perp, points[z].x,points[z].y)
+    return hv.haversine(a_perp, b_perp, punto.x,punto.y)
 
-def draw_close_points(punti,slope,intercept):
+def draw_close_points(punti,slope,intercept,i,j):
     x_values = np.linspace(min(longitudes), max(longitudes), num=100)
     y_values = slope * x_values + intercept
     x_coords = [point.x for point in punti]
@@ -45,58 +47,70 @@ def draw_close_points(punti,slope,intercept):
     plt.scatter(x_coords, y_coords, label="portali",color="green")
     #plt.annotate(f"{distanza:.2f} mt", (points[z].x, points[z].y),textcoords="offset points",xytext=(0, 5),ha="center")
     plt.plot(x_values, y_values)
-    #plt.annotate(f"{data[z]['title']}", (points[z].x, points[z].y), textcoords="offset points",xytext=(0, -5),ha="center",color='green')
+    plt.annotate(f"{titles_portal[i]}", (points[i].x, points[i].y), textcoords="offset points",xytext=(0, -5),ha="center",color='green')
+    plt.annotate(f"{titles_portal[j]}", (points[j].x, points[j].y), textcoords="offset points",xytext=(0, -5),ha="center",color='green')
     plt.show()
     return
 # (a,b) = (gdf['lng'],gdf['lat']
 # c = b + (a/slope)
 
 
+def load_file(file_json):
+    # Carica i dati dal file JSON
+    with open(file_json) as f:
+        portali = json.load(f)
+    return portali
 
-# Carica i dati dal file JSON
-with open(FILENAME_JSON) as f:
-    data = json.load(f)
+def find_best_line(points,NUM_PUNTI_MIN):
+	min_dist_media=0
+	for i in range(len(points)):
+		for j in range(i + 1, len(points)):
+			slope, intercept = line_2_points(points[i], points[j])
+			if slope is not None:  # Se i punti non sono gli stessi
+				punti_vicini=[] #lista dei punti entro la distanza richiesta dalla retta approssimante
+				distanze=[]
+				for z in range(len(points)):
+					#calcolo distanza
+					distanza = distance_from_line(points[z],slope,intercept)
+					if distanza < DISTANZA_MAX:
+						punti_vicini.append(points[z])
+						distanze.append(distanza)
+					if (len(distanze) + len(points) -z ) < NUM_PUNTI_MIN:
+						#print(f"i:{i},j:{j},z:{z}")
+						break
+				sum_d=0 
+				if punti_vicini and len(punti_vicini) >= NUM_PUNTI_MIN:
+					NUM_PUNTI_MIN = len(punti_vicini)
+					for d in distanze:
+						sum_d=sum_d+d
+					if min_dist_media<sum_d/len(distanze):
+						min_dist_media = sum_d/len(distanze)
+						best_slope=slope
+						best_intercept=intercept
+						best_punti_vicini=punti_vicini
+						best_distanze=distanze
+						portale_i=i
+						portale_j=j
+						
+	return min_dist_media,best_slope,best_intercept,best_punti_vicini,best_distanze,portale_i,portale_j,NUM_PUNTI_MIN
+
+portals = load_file(FILENAME_JSON)
 
 # Crea una lista di oggetti Point da latitudine e longitudine
 # points = [Point(d['lng'], d['lat']) for d in data]
 points = []
-for portale in data:
-    point = Point(portale['coordinates']['lng'], portale['coordinates']['lat'])
+for portal in portals:
+    point = Point(portal['coordinates']['lng'], portal['coordinates']['lat'])
     points.append(point)
+
 longitudes = [point.x for point in points]
 latitudes = [point.y for point in points]
+titles_portal = [ portal['title'] for portal in portals]
 
-min_dist=0
-for i in range(len(points)):
-    for j in range(i + 1, len(points)):
-        slope, intercept = line_2_points(points[i], points[j])
-        if slope is not None:  # Se i punti non sono gli stessi
-            punti_vicini=[] #lista dei punti entro la distanza richiesta dalla retta approssimante
-            distanze=[]
-            for z in range(len(points)):
-                #calcolo distanza
-                distanza = distance_from_line(points[z],slope,intercept)
-                if distanza < DISTANZA_MAX:
-                    punti_vicini.append(points[z])
-                    distanze.append(distanza)
-                if (len(distanze) + len(points) -z ) < NUM_PUNTI_MIN:
-                    print(f"i:{i},j:{j},z:{z}")
-                    break
-            sum_d=0 
-            if punti_vicini and len(punti_vicini) >= NUM_PUNTI_MIN:
-                if(len(punti_vicini)) >= NUM_PUNTI_MIN:
-                    NUM_PUNTI_MIN = len(punti_vicini)
-                for d in distanze:
-                    sum_d=sum_d+d
-                if min_dist<sum_d/len(distanze):
-                    min_dist = sum_d/len(distanze)
-                    best_slope=slope
-                    best_intercept=intercept
-                    best_punti_vicini=punti_vicini
-                    best_distanze=distanze
+
                     
-                
-print(f"La distanza media dalla retta è:{min_dist}")
-draw_close_points(best_punti_vicini,best_slope,best_intercept)
-                        
-                
+min_dist_media,best_slope,best_intercept,best_punti_vicini,best_distanze,portale_i,portale_j,n=find_best_line(points,NUM_PUNTI_MIN)             
+print(f"La distanza media dalla retta è:{min_dist_media:.2f}mt e ci sono {n} portali nel filotto")
+print("--- %s seconds ---" % (time.time() - start_time))
+draw_close_points(best_punti_vicini,best_slope,best_intercept,portale_i,portale_j)
+print(f"{portals[portale_i]['title']} A {portals[portale_j]['title']}")
