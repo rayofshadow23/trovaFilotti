@@ -116,6 +116,36 @@ def calcola_distanze(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
         print(f"Errore: {e}")
         return None
 
+def save_to_json(points, filename='data.json'):
+    # Initialize the JSON structure
+    data = {
+        "maps": {
+            "idOthers": {
+                "label": "Others",
+                "state": 1,
+                "bkmrk": {}
+            }
+        },
+        "portals": {
+            "idOthers": {
+                "label": "Others",
+                "state": 1,
+                "bkmrk": {}
+            }
+        }
+    }
+
+    # Populate the 'bkmrk' dictionary with points and labels
+    for idx, (point, label) in enumerate(points):
+        latlng = f"{point.y},{point.x}"
+        data['portals']['idOthers']['bkmrk'][chr(97 + idx)] = {
+            "latlng": latlng,
+            "label": label
+        }
+
+    # Write the JSON data to a file
+    with open(filename, 'w') as json_file:
+        json.dump(data, json_file, indent=2)
 
 def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
     min_dist_media = 0
@@ -150,6 +180,10 @@ def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
                     portale_j = j
 
     return min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN
+
+def are_lines_almost_parallel(slope1, slope2, tolerance=0.1):
+    # Compare the slopes with a given tolerance
+    return abs(slope1 - slope2) < tolerance
 
 
 def find_best_line(points, NUM_PUNTI_MIN):
@@ -223,12 +257,19 @@ if __name__ == '__main__':
     print(f"--- {time.time() - start_time:.2f} seconds ---")
     draw_close_points(best_punti_vicini, best_slope, best_intercept, portale_i, portale_j)
     print(f'{best_slope}')
+    top_points=[]
     for p in range(len(best_punti_vicini) - 1):
         a = best_punti_vicini[p]
         b = best_punti_vicini[p + 1]
         m, q = line_2_points(a, b)
-        print(f"pendenza tra {best_punti_vicini[p][1]} e {best_punti_vicini[p + 1][1]} è: {m}")
+        if are_lines_almost_parallel(m,best_slope,0.2):
+            top_points.append(best_punti_vicini[p])
+            print(f"pendenza tra {best_punti_vicini[p][1]} e {best_punti_vicini[p + 1][1]} è: {m}")
+
+
 
     print(f"{portals[portale_i]['title']} A {portals[portale_j]['title']}")
 
     print(f"slope della retta è: {best_slope}")
+    draw_close_points(top_points, best_slope, best_intercept, portale_i, portale_j)
+    save_to_json(top_points, filename='data.json')
