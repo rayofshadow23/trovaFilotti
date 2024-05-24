@@ -272,4 +272,4 @@ if __name__ == '__main__':
 
     print(f"slope della retta è: {best_slope}")
     draw_close_points(top_points, best_slope, best_intercept, portale_i, portale_j)
-    save_to_json(top_points, filename='data.json')
+    save_to_json(best_punti_vicini, filename='data.json')
