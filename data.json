@@ -1,0 +1,77 @@
+{
+  "maps": {
+    "idOthers": {
+      "label": "Others",
+      "state": 1,
+      "bkmrk": {}
+    }
+  },
+  "portals": {
+    "idOthers": {
+      "label": "Others",
+      "state": 1,
+      "bkmrk": {
+        "a": {
+          "latlng": "45.485897,9.124785",
+          "label": "La Fiaba - Murales"
+        },
+        "b": {
+          "latlng": "45.485676,9.125448",
+          "label": "Eternal Eagle Horse Murales Ippodromo"
+        },
+        "c": {
+          "latlng": "45.485653,9.125744",
+          "label": "Il Vecchio - Murales"
+        },
+        "d": {
+          "latlng": "45.485382,9.126522",
+          "label": "Free Wall Free Animal Murales Ippodromo"
+        },
+        "e": {
+          "latlng": "45.485032,9.127737",
+          "label": "Green Mosaic Murales Ippodromo"
+        },
+        "f": {
+          "latlng": "45.484937,9.128362",
+          "label": "Angry Goat Murales Ippodromo"
+        },
+        "g": {
+          "latlng": "45.484739,9.129014",
+          "label": "Wild Hog Murales Ippodromo"
+        },
+        "h": {
+          "latlng": "45.484623,9.129677",
+          "label": "Il Goblin Calciatore - Murales"
+        },
+        "i": {
+          "latlng": "45.4844,9.130241",
+          "label": "FOXKO Horse Murales Ippodromo"
+        },
+        "j": {
+          "latlng": "45.484318,9.131135",
+          "label": "Picchiarello - Murales"
+        },
+        "k": {
+          "latlng": "45.483818,9.133062",
+          "label": "Cubistic Horse - Murales ippodromo"
+        },
+        "l": {
+          "latlng": "45.483044,9.135746",
+          "label": "Tripping Murales Ippodromo"
+        },
+        "m": {
+          "latlng": "45.482981,9.13651",
+          "label": "Green Dragon - Murales Ippodromo"
+        },
+        "n": {
+          "latlng": "45.48271,9.137236",
+          "label": "The Pushers Murales Ippodromo"
+        },
+        "o": {
+          "latlng": "45.482391,9.138415",
+          "label": "Genius Mind Run Fast Murales Ippodromo"
+        }
+      }
+    }
+  }
+}
