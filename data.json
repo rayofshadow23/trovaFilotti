@@ -12,152 +12,48 @@
       "state": 1,
       "bkmrk": {
         "a": {
-          "latlng": "45.485897,9.124785",
-          "label": "La Fiaba - Murales"
+          "latlng": "45.577481,9.150513",
+          "label": "Altalena Doppia"
         },
         "b": {
-          "latlng": "45.485828,9.125066",
-          "label": "Christagram - Murales"
+          "latlng": "45.574958,9.163144",
+          "label": "Villa Beretta Perab\u00c3\u00b2 Dozio - Incirano, Paderno Dugnano"
         },
         "c": {
-          "latlng": "45.485673,9.125103",
-          "label": "Gold Tooth Camel Murales Ippodromo"
+          "latlng": "45.573534,9.170153",
+          "label": "Dojo di allenamento - Area Fitness"
         },
         "d": {
-          "latlng": "45.485779,9.125238",
-          "label": "PaintMan - Murales"
+          "latlng": "45.573496,9.170781",
+          "label": "Area Cani Parco Toti"
         },
         "e": {
-          "latlng": "45.485676,9.125448",
-          "label": "Eternal Eagle Horse Murales Ippodromo"
+          "latlng": "45.572978,9.17276",
+          "label": "Cartello Informativo del Parco"
         },
         "f": {
-          "latlng": "45.485653,9.125744",
-          "label": "Il Vecchio - Murales"
+          "latlng": "45.572876,9.173122",
+          "label": "Cartello area gioco bimbi"
         },
         "g": {
-          "latlng": "45.4856,9.12597",
-          "label": "Il Vecchio Saggio - Murales"
+          "latlng": "45.572907,9.17376",
+          "label": "Postazione del Salto in Lungo - Parco Toti"
         },
         "h": {
-          "latlng": "45.485482,9.126014",
-          "label": "Blue Dude Murales Ippodromo"
+          "latlng": "45.572613,9.174468",
+          "label": "Postazione del Lancio del Peso"
         },
         "i": {
-          "latlng": "45.485515,9.126307",
-          "label": "Let's Go - Murales"
+          "latlng": "45.572458,9.175363",
+          "label": "InfoVerde Parco Toti"
         },
         "j": {
-          "latlng": "45.485382,9.126522",
-          "label": "Free Wall Free Animal Murales Ippodromo"
+          "latlng": "45.572438,9.175482",
+          "label": "Campo da Calcio Storico Parco Toti"
         },
         "k": {
-          "latlng": "45.485172,9.127165",
-          "label": "Horse Diet Murales Ippodromo"
-        },
-        "l": {
-          "latlng": "45.485231,9.127438",
-          "label": "La Bomboletta - Murales"
-        },
-        "m": {
-          "latlng": "45.485032,9.127737",
-          "label": "Green Mosaic Murales Ippodromo"
-        },
-        "n": {
-          "latlng": "45.484941,9.128032",
-          "label": "Associazione Astronauti Autonomi Murales Ippodromo"
-        },
-        "o": {
-          "latlng": "45.484937,9.128362",
-          "label": "Angry Goat Murales Ippodromo"
-        },
-        "p": {
-          "latlng": "45.484739,9.129014",
-          "label": "Wild Hog Murales Ippodromo"
-        },
-        "q": {
-          "latlng": "45.484623,9.129677",
-          "label": "Il Goblin Calciatore - Murales"
-        },
-        "r": {
-          "latlng": "45.4844,9.130241",
-          "label": "FOXKO Horse Murales Ippodromo"
-        },
-        "s": {
-          "latlng": "45.484328,9.130614",
-          "label": "Turtle Racer Murales Ippodromo"
-        },
-        "t": {
-          "latlng": "45.484318,9.131135",
-          "label": "Picchiarello - Murales"
-        },
-        "u": {
-          "latlng": "45.483984,9.131898",
-          "label": "Dynosaur Murales Ippodromo"
-        },
-        "v": {
-          "latlng": "45.483991,9.13234",
-          "label": "69 Horse Racer Murales Ippodromo"
-        },
-        "w": {
-          "latlng": "45.483816,9.132591",
-          "label": "Jumping Racer Murales Ippodromo"
-        },
-        "x": {
-          "latlng": "45.483818,9.133062",
-          "label": "Cubistic Horse - Murales ippodromo"
-        },
-        "y": {
-          "latlng": "45.483776,9.133386",
-          "label": "Il Gioco in Piazza - Murales"
-        },
-        "z": {
-          "latlng": "45.483506,9.133967",
-          "label": "Stone Horse Setting Sun Murales Ippodromo"
-        },
-        "{": {
-          "latlng": "45.483566,9.134189",
-          "label": "Non Ci Resta Che Piangere - Murales"
-        },
-        "|": {
-          "latlng": "45.4833,9.134675",
-          "label": "LA Green Loop Murales Ippodromo"
-        },
-        "}": {
-          "latlng": "45.483329,9.135165",
-          "label": "Maradona - Murales"
-        },
-        "~": {
-          "latlng": "45.483044,9.135746",
-          "label": "Tripping Murales Ippodromo"
-        },
-        "\u007f": {
-          "latlng": "45.482981,9.13651",
-          "label": "Green Dragon - Murales Ippodromo"
-        },
-        "\u0080": {
-          "latlng": "45.482907,9.136869",
-          "label": "Paolo Rossi - Murales"
-        },
-        "\u0081": {
-          "latlng": "45.48271,9.137236",
-          "label": "The Pushers Murales Ippodromo"
-        },
-        "\u0082": {
-          "latlng": "45.482391,9.138415",
-          "label": "Genius Mind Run Fast Murales Ippodromo"
-        },
-        "\u0083": {
-          "latlng": "45.482358,9.139071",
-          "label": "Il Dipinto - Murales"
-        },
-        "\u0084": {
-          "latlng": "45.482188,9.139284",
-          "label": "Artist Maker Murales Ippodromo"
-        },
-        "\u0085": {
-          "latlng": "45.482276,9.139418",
-          "label": "Hot Wheels - Murales"
+          "latlng": "45.570121,9.187522",
+          "label": "Bocciodromo - Calderara"
         }
       }
     }

@@ -12,10 +12,10 @@ import multiprocessing
 start_time = time.time()
 
 # Parametri configurabili
-FILENAME_JSON = "san_siro.json"
-NUM_PUNTI_MIN = 15  # Numero minimo di punti allineati
-DISTANZA_MAX = 10  # Distanza massima dalla linea retta (in metri)
-DISTANZA_MAX_TRA_ESTREMI = 1300  # Distanza minima tra i punti estremi del filotto(in metri)
+FILENAME_JSON = "toti.json"
+NUM_PUNTI_MIN = 5  # Numero minimo di punti allineati
+DISTANZA_MAX = 30  # Distanza massima dalla linea retta (in metri)
+DISTANZA_MAX_TRA_ESTREMI = 500  # Distanza minima tra i punti estremi del filotto(in metri)
 
 
 # funzione che calcola la retta tra due punti
@@ -116,6 +116,7 @@ def calcola_distanze(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
         print(f"Errore: {e}")
         return None
 
+
 def save_to_json(points, filename='data.json'):
     # Initialize the JSON structure
     data = {
@@ -146,6 +147,7 @@ def save_to_json(points, filename='data.json'):
     # Write the JSON data to a file
     with open(filename, 'w') as json_file:
         json.dump(data, json_file, indent=2)
+
 
 def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
     min_dist_media = 0
@@ -180,6 +182,7 @@ def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
                     portale_j = j
 
     return min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN
+
 
 def are_lines_almost_parallel(slope1, slope2, tolerance=0.1):
     # Compare the slopes with a given tolerance
@@ -246,30 +249,42 @@ if __name__ == '__main__':
     longitudes = [point[0].x for point in points]
     latitudes = [point[0].y for point in points]
 
-
     # Utilizzo della funzione parallelizzata
-    min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN = find_best_line_parallel(
-        points, NUM_PUNTI_MIN, DISTANZA_MAX)
+    min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN = find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX)
 
-    # min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, n = find_best_line(points, NUM_PUNTI_MIN)
+    #min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, n = find_best_line(
+    #    points, NUM_PUNTI_MIN)
     print(
         f"La distanza media dalla retta è:{min_dist_media:.2f}mt e ci sono {len(best_punti_vicini) + 2} portali nel filotto")
     print(f"--- {time.time() - start_time:.2f} seconds ---")
     draw_close_points(best_punti_vicini, best_slope, best_intercept, portale_i, portale_j)
     print(f'{best_slope}')
-    top_points=[]
-    for p in range(len(best_punti_vicini) - 1):
+    top_points = []
+    p = 0
+    while p < len(best_punti_vicini) - 1:
         a = best_punti_vicini[p]
-        b = best_punti_vicini[p + 1]
-        m, q = line_2_points(a, b)
-        if are_lines_almost_parallel(m,best_slope,0.2):
-            top_points.append(best_punti_vicini[p])
-            print(f"pendenza tra {best_punti_vicini[p][1]} e {best_punti_vicini[p + 1][1]} è: {m}")
-
-
+        n = 1
+        while True:
+            if p + n < len(best_punti_vicini):
+                b = best_punti_vicini[p + n]
+                m, q = line_2_points(a, b)
+                if are_lines_almost_parallel(m, best_slope, 0.35):
+                    top_points.append(a)
+                    print(f"pendenza tra {a[1]} e {b[1]} è: {m}")
+                    p += n  # Move p to the position of b
+                    break
+                else:
+                    print(f"NO BENE pendenza tra {a[1]} e {b[1]} è: {m}")
+                    best_punti_vicini.pop(p + n)  # Remove b if not almost parallel
+                    n -= 1
+            else:
+                break  # Exit the loop if there are no more points to compare
+            n += 1  # Increment n to check the next point
 
     print(f"{portals[portale_i]['title']} A {portals[portale_j]['title']}")
 
     print(f"slope della retta è: {best_slope}")
     draw_close_points(top_points, best_slope, best_intercept, portale_i, portale_j)
     save_to_json(best_punti_vicini, filename='data.json')
+    print(
+        f"Ci sono {len(best_punti_vicini) + 2} portali nel filotto")
