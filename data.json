@@ -12,16 +12,16 @@
       "state": 1,
       "bkmrk": {
         "a": {
+          "latlng": "45.572761,9.163081",
+          "label": "Pista d'atletica comunale - Paderno Dugnano"
+        },
+        "b": {
           "latlng": "45.574431,9.169448",
           "label": "Percorso del Lago e delle Ville"
         },
-        "b": {
-          "latlng": "45.574608,9.17024",
-          "label": "Pino Domestico - Pinus Pinea L."
-        },
         "c": {
-          "latlng": "45.574727,9.170978",
-          "label": "Campo da Basket - via San Michele del Carso"
+          "latlng": "45.574986,9.171034",
+          "label": "Oratorio S. Luigi Incirano"
         },
         "d": {
           "latlng": "45.575096,9.171609",
@@ -32,24 +32,48 @@
           "label": "Madonnina Dell'Oratorio San Luigi di Incirano"
         },
         "f": {
-          "latlng": "45.575276,9.17285",
-          "label": "Parco Grubri\u00c3\u00a0"
+          "latlng": "45.575883,9.174137",
+          "label": "Placca \"Radici del futuro\""
         },
         "g": {
-          "latlng": "45.575374,9.173303",
-          "label": "Infopoint Parco Toti"
-        },
-        "h": {
-          "latlng": "45.575796,9.174054",
-          "label": "Parco Grugnotorto Villoresi - Parco locale di interesse sovracomunale"
-        },
-        "i": {
           "latlng": "45.576114,9.174951",
           "label": "Bacheca Informativa - Parco Lago Nord"
         },
-        "j": {
+        "h": {
           "latlng": "45.576335,9.175507",
           "label": "Parco GruBr\u00c3\u00aca"
+        },
+        "i": {
+          "latlng": "45.576372,9.175602",
+          "label": "Parco Lago Nord - Ingresso Ovest"
+        },
+        "j": {
+          "latlng": "45.576429,9.175916",
+          "label": "Ponte di legno d\u00e2\u20ac\u2122accesso al Parco"
+        },
+        "k": {
+          "latlng": "45.576555,9.17657",
+          "label": "Percorso del Lago e delle Ville - Paderno Dugnano"
+        },
+        "l": {
+          "latlng": "45.576759,9.177198",
+          "label": "Area Gioco per Bambini - Parco Lago Nord"
+        },
+        "m": {
+          "latlng": "45.577,9.178021",
+          "label": "Luccio - Cartello informativo"
+        },
+        "n": {
+          "latlng": "45.577294,9.179275",
+          "label": "Memorial Totem"
+        },
+        "o": {
+          "latlng": "45.577586,9.179755",
+          "label": "Ali Sul Parco Lago Nord"
+        },
+        "p": {
+          "latlng": "45.577856,9.180869",
+          "label": "Scalinata del Belvedere - Parco Lago Nord"
         }
       }
     }

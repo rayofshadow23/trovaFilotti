@@ -13,8 +13,8 @@ start_time = time.time()
 # Parametri configurabili
 FILENAME_JSON = "filotto_toti.json"
 NUM_PUNTI_MIN = 5  # Numero minimo di punti allineati
-DISTANZA_MAX = 30  # Distanza massima dalla linea retta (in metri)
-DISTANZA_MAX_TRA_ESTREMI = 500  # Distanza minima tra i punti estremi del filotto(in metri)
+DISTANZA_MAX = 10  # Distanza massima dalla linea retta (in metri)
+DISTANZA_MAX_TRA_ESTREMI = 2000  # Distanza max tra i punti estremi del filotto(in metri)
 
 
 
@@ -140,7 +140,7 @@ def get_east_portal(punti):
     return east_portal
 
 
-def calcola_distanze(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
+def compute_distances(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
     try:
         slope, intercept = line_2_points(points[i], points[j])
         if slope is not None:
@@ -148,14 +148,16 @@ def calcola_distanze(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
             distanze = []
             for z in range(len(points)):
                 distanza = distance_from_line(points[z], slope, intercept)
-                if distanza < DISTANZA_MAX:
+                if distanza <= DISTANZA_MAX:
                     punti_vicini.append(points[z])
-                    if haversine(get_east_portal(punti_vicini)[0].x, get_east_portal(punti_vicini)[0].y,
-                                    get_west_portal(punti_vicini)[0].x,
-                                    get_west_portal(punti_vicini)[0].y) > DISTANZA_MAX_TRA_ESTREMI:
+                    if haversine(get_east_portal(punti_vicini)[0].x,
+                                 get_east_portal(punti_vicini)[0].y,
+                                 get_west_portal(punti_vicini)[0].x,
+                                 get_west_portal(punti_vicini)[0].y) > DISTANZA_MAX_TRA_ESTREMI:
+                        punti_vicini.pop()
                         break
                     distanze.append(distanza)
-                if (len(distanze) + len(points) - z) < NUM_PUNTI_MIN:
+                if (len(distanze) + len(points) - z) < NUM_PUNTI_MIN: #esco se i portali rimanenti cmq non bastano per superare il max già raggiunto
                     break
             return i, j, punti_vicini, distanze
     except ValueError as e:
@@ -195,39 +197,6 @@ def save_to_json(points, filename='data.json'):
         json.dump(data, json_file, indent=2)
 
 
-def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
-    min_dist_media = 0
-    best_slope = None
-    best_intercept = None
-    best_punti_vicini = []
-    best_distanze = []
-    portale_i = portale_j = None
-
-    # Prepara i dati per il processo parallelo
-    tasks = [(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN) for i in range(len(points)) for j in range(i + 1, len(points))]
-
-    # Esegui in parallelo
-    with multiprocessing.Pool() as pool:
-        results = pool.starmap(calcola_distanze, tasks)
-
-    # Processa i risultati
-    for result in results:
-        if result is not None:
-            i, j, punti_vicini, distanze = result
-            if punti_vicini and (len(punti_vicini) > NUM_PUNTI_MIN):
-                NUM_PUNTI_MIN = len(punti_vicini)
-                sum_d = sum(distanze)
-                dist_media = sum_d / len(distanze)
-                print(f"i:{i},j:{j},NUM_PUNTI_MIN:{NUM_PUNTI_MIN}")
-                if min_dist_media < dist_media:
-                    min_dist_media = dist_media
-                    best_slope, best_intercept = line_2_points(points[i], points[j])
-                    best_punti_vicini = punti_vicini
-                    best_distanze = distanze
-                    portale_i = i
-                    portale_j = j
-
-    return min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN
 
 
 def are_lines_almost_parallel(slope1, slope2, tolerance=0.1):
@@ -271,6 +240,37 @@ def find_best_line(points, NUM_PUNTI_MIN):
                         portale_j = j
 
     return min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN
+def find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX):
+    best_slope = None
+    best_intercept = None
+    best_punti_vicini = []
+    best_distanze = []
+    portale_i = portale_j = None
+
+    # Prepara i dati per il processo parallelo
+    tasks = [(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN) for i in range(len(points)) for j in range(i + 1, len(points))]
+
+    # Esegui in parallelo
+    with multiprocessing.Pool() as pool:
+        results = pool.starmap(compute_distances, tasks)
+
+    # Processa i risultati
+    for result in results:
+        if result is not None:
+            i, j, punti_vicini, distanze = result
+            if punti_vicini and (len(punti_vicini) > NUM_PUNTI_MIN):
+                NUM_PUNTI_MIN = len(punti_vicini)
+                sum_d = sum(distanze)
+                dist_media = sum_d / len(distanze)
+                print(f"i:{i},j:{j},NUM_PUNTI_MIN:{NUM_PUNTI_MIN},dist_media:{dist_media}")
+                min_dist_media = dist_media
+                best_slope, best_intercept = line_2_points(points[i], points[j])
+                best_punti_vicini = punti_vicini
+                best_distanze = distanze
+                portale_i = i
+                portale_j = j
+
+    return min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN
 
 
 def order_by_longitudes(portals):
@@ -303,8 +303,7 @@ if __name__ == '__main__':
     # Utilizzo della funzione parallelizzata
     min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, NUM_PUNTI_MIN = find_best_line_parallel(points, NUM_PUNTI_MIN, DISTANZA_MAX)
 
-    #min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, n = find_best_line(
-    #    points, NUM_PUNTI_MIN)
+    #min_dist_media, best_slope, best_intercept, best_punti_vicini, best_distanze, portale_i, portale_j, n = find_best_line(points, NUM_PUNTI_MIN)
     print(
         f"La distanza media dalla retta è:{min_dist_media:.2f}mt e ci sono {len(best_punti_vicini) + 2} portali nel filotto")
     print(f"--- {time.time() - start_time:.2f} seconds ---")
