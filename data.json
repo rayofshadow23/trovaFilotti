@@ -12,20 +12,20 @@
       "state": 1,
       "bkmrk": {
         "a": {
+          "latlng": "45.565515,9.136885",
+          "label": "Parco Via Ungaretti"
+        },
+        "b": {
+          "latlng": "45.565701,9.137573",
+          "label": "Playground Via Ungaretti"
+        },
+        "c": {
           "latlng": "45.572761,9.163081",
           "label": "Pista d'atletica comunale - Paderno Dugnano"
         },
-        "b": {
-          "latlng": "45.574431,9.169448",
-          "label": "Percorso del Lago e delle Ville"
-        },
-        "c": {
-          "latlng": "45.574986,9.171034",
-          "label": "Oratorio S. Luigi Incirano"
-        },
         "d": {
-          "latlng": "45.575096,9.171609",
-          "label": "Campo da calcio a 11 di Incirano"
+          "latlng": "45.575023,9.170673",
+          "label": "Centro Cardinal Colombo"
         },
         "e": {
           "latlng": "45.575312,9.172078",

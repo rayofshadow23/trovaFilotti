@@ -11,10 +11,10 @@ import multiprocessing
 start_time = time.time()
 
 # Parametri configurabili
-FILENAME_JSON = "filotto_toti.json"
+FILENAME_JSON = "all.json"
 NUM_PUNTI_MIN = 5  # Numero minimo di punti allineati
 DISTANZA_MAX = 10  # Distanza massima dalla linea retta (in metri)
-DISTANZA_MAX_TRA_ESTREMI = 2000  # Distanza max tra i punti estremi del filotto(in metri)
+DISTANZA_MAX_TRA_ESTREMI = 4000  # Distanza max tra i punti estremi del filotto(in metri)
 
 
 
