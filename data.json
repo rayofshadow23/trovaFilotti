@@ -12,48 +12,44 @@
       "state": 1,
       "bkmrk": {
         "a": {
-          "latlng": "45.577481,9.150513",
-          "label": "Altalena Doppia"
+          "latlng": "45.574431,9.169448",
+          "label": "Percorso del Lago e delle Ville"
         },
         "b": {
-          "latlng": "45.574958,9.163144",
-          "label": "Villa Beretta Perab\u00c3\u00b2 Dozio - Incirano, Paderno Dugnano"
+          "latlng": "45.574608,9.17024",
+          "label": "Pino Domestico - Pinus Pinea L."
         },
         "c": {
-          "latlng": "45.573534,9.170153",
-          "label": "Dojo di allenamento - Area Fitness"
+          "latlng": "45.574727,9.170978",
+          "label": "Campo da Basket - via San Michele del Carso"
         },
         "d": {
-          "latlng": "45.573496,9.170781",
-          "label": "Area Cani Parco Toti"
+          "latlng": "45.575096,9.171609",
+          "label": "Campo da calcio a 11 di Incirano"
         },
         "e": {
-          "latlng": "45.572978,9.17276",
-          "label": "Cartello Informativo del Parco"
+          "latlng": "45.575312,9.172078",
+          "label": "Madonnina Dell'Oratorio San Luigi di Incirano"
         },
         "f": {
-          "latlng": "45.572876,9.173122",
-          "label": "Cartello area gioco bimbi"
+          "latlng": "45.575276,9.17285",
+          "label": "Parco Grubri\u00c3\u00a0"
         },
         "g": {
-          "latlng": "45.572907,9.17376",
-          "label": "Postazione del Salto in Lungo - Parco Toti"
+          "latlng": "45.575374,9.173303",
+          "label": "Infopoint Parco Toti"
         },
         "h": {
-          "latlng": "45.572613,9.174468",
-          "label": "Postazione del Lancio del Peso"
+          "latlng": "45.575796,9.174054",
+          "label": "Parco Grugnotorto Villoresi - Parco locale di interesse sovracomunale"
         },
         "i": {
-          "latlng": "45.572458,9.175363",
-          "label": "InfoVerde Parco Toti"
+          "latlng": "45.576114,9.174951",
+          "label": "Bacheca Informativa - Parco Lago Nord"
         },
         "j": {
-          "latlng": "45.572438,9.175482",
-          "label": "Campo da Calcio Storico Parco Toti"
-        },
-        "k": {
-          "latlng": "45.570121,9.187522",
-          "label": "Bocciodromo - Calderara"
+          "latlng": "45.576335,9.175507",
+          "label": "Parco GruBr\u00c3\u00aca"
         }
       }
     }
