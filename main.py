@@ -60,7 +60,7 @@ NODE_COORD_SECTION
     # Add coordinates for each location
     for i, loc in enumerate(locations, start=1):
         lng, lat = float(loc[0].x), float(loc[0].y)
-        tsp_content += f"{i} {lat:.6f} {lng:.6f}\n"
+        tsp_content += f"{i} {lat*1000:.6f} {lng*1000:.6f}\n"
 
     # Write to the TSP file
     with open("locations.tsp", "w") as tsp_file:
