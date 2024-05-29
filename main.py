@@ -11,7 +11,7 @@ import multiprocessing
 start_time = time.time()
 
 # Parametri configurabili
-FILENAME_JSON = "all.json"
+FILENAME_JSON = "san_siro.json"
 NUM_PUNTI_MIN = 5  # Numero minimo di punti allineati
 DISTANZA_MAX = 10  # Distanza massima dalla linea retta (in metri)
 DISTANZA_MAX_TRA_ESTREMI = 4000  # Distanza max tra i punti estremi del filotto(in metri)
@@ -43,6 +43,29 @@ def isInsideTriangle(point_to_check, vertex_A, vertex_B, vertex_C):
     plt.show()
     # Utilizzare il metodo contains di Polygon per verificare se il punto è all'interno del triangolo
     return triangle.contains(point[0])
+
+def create_tsp_file(locations):
+    num_locations = len(locations)
+
+    # Header for the TSP file
+    tsp_content = f"""NAME : it{num_locations}
+COMMENT : {num_locations} locations in Italy
+COMMENT : Derived from National Imagery and Mapping Agency data
+TYPE : TSP
+DIMENSION : {num_locations}
+EDGE_WEIGHT_TYPE : EUC_2D
+NODE_COORD_SECTION
+"""
+
+    # Add coordinates for each location
+    for i, loc in enumerate(locations, start=1):
+        lng, lat = float(loc[0].x), float(loc[0].y)
+        tsp_content += f"{i} {lat:.6f} {lng:.6f}\n"
+
+    # Write to the TSP file
+    with open("locations.tsp", "w") as tsp_file:
+        tsp_file.write(tsp_content)
+
 
 def draw_triangle_and_point(point_to_draw, vertex_A, vertex_B, vertex_C):
     """
@@ -165,7 +188,7 @@ def compute_distances(points, i, j, DISTANZA_MAX, NUM_PUNTI_MIN):
         return None
 
 
-def save_to_json(points, filename='data.json'):
+def save_to_json(points, filename='bookmarks.json'):
     # Initialize the JSON structure
     data = {
         "maps": {
@@ -338,3 +361,4 @@ if __name__ == '__main__':
     save_to_json(best_punti_vicini, filename='data.json')
     print(
         f"Ci sono {len(best_punti_vicini) + 2} portali nel filotto")
+    create_tsp_file(best_punti_vicini)

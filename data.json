@@ -12,68 +12,124 @@
       "state": 1,
       "bkmrk": {
         "a": {
-          "latlng": "45.565515,9.136885",
-          "label": "Parco Via Ungaretti"
+          "latlng": "45.485897,9.124785",
+          "label": "La Fiaba - Murales"
         },
         "b": {
-          "latlng": "45.565701,9.137573",
-          "label": "Playground Via Ungaretti"
+          "latlng": "45.485828,9.125066",
+          "label": "Christagram - Murales"
         },
         "c": {
-          "latlng": "45.572761,9.163081",
-          "label": "Pista d'atletica comunale - Paderno Dugnano"
+          "latlng": "45.485779,9.125238",
+          "label": "PaintMan - Murales"
         },
         "d": {
-          "latlng": "45.575023,9.170673",
-          "label": "Centro Cardinal Colombo"
+          "latlng": "45.485676,9.125448",
+          "label": "Eternal Eagle Horse Murales Ippodromo"
         },
         "e": {
-          "latlng": "45.575312,9.172078",
-          "label": "Madonnina Dell'Oratorio San Luigi di Incirano"
+          "latlng": "45.485653,9.125744",
+          "label": "Il Vecchio - Murales"
         },
         "f": {
-          "latlng": "45.575883,9.174137",
-          "label": "Placca \"Radici del futuro\""
+          "latlng": "45.4856,9.12597",
+          "label": "Il Vecchio Saggio - Murales"
         },
         "g": {
-          "latlng": "45.576114,9.174951",
-          "label": "Bacheca Informativa - Parco Lago Nord"
+          "latlng": "45.485515,9.126307",
+          "label": "Let's Go - Murales"
         },
         "h": {
-          "latlng": "45.576335,9.175507",
-          "label": "Parco GruBr\u00c3\u00aca"
+          "latlng": "45.485172,9.127165",
+          "label": "Horse Diet Murales Ippodromo"
         },
         "i": {
-          "latlng": "45.576372,9.175602",
-          "label": "Parco Lago Nord - Ingresso Ovest"
+          "latlng": "45.485032,9.127737",
+          "label": "Green Mosaic Murales Ippodromo"
         },
         "j": {
-          "latlng": "45.576429,9.175916",
-          "label": "Ponte di legno d\u00e2\u20ac\u2122accesso al Parco"
+          "latlng": "45.484941,9.128032",
+          "label": "Associazione Astronauti Autonomi Murales Ippodromo"
         },
         "k": {
-          "latlng": "45.576555,9.17657",
-          "label": "Percorso del Lago e delle Ville - Paderno Dugnano"
+          "latlng": "45.484937,9.128362",
+          "label": "Angry Goat Murales Ippodromo"
         },
         "l": {
-          "latlng": "45.576759,9.177198",
-          "label": "Area Gioco per Bambini - Parco Lago Nord"
+          "latlng": "45.484739,9.129014",
+          "label": "Wild Hog Murales Ippodromo"
         },
         "m": {
-          "latlng": "45.577,9.178021",
-          "label": "Luccio - Cartello informativo"
+          "latlng": "45.484623,9.129677",
+          "label": "Il Goblin Calciatore - Murales"
         },
         "n": {
-          "latlng": "45.577294,9.179275",
-          "label": "Memorial Totem"
+          "latlng": "45.4844,9.130241",
+          "label": "FOXKO Horse Murales Ippodromo"
         },
         "o": {
-          "latlng": "45.577586,9.179755",
-          "label": "Ali Sul Parco Lago Nord"
+          "latlng": "45.484328,9.130614",
+          "label": "Turtle Racer Murales Ippodromo"
         },
         "p": {
-          "latlng": "45.577856,9.180869",
-          "label": "Scalinata del Belvedere - Parco Lago Nord"
+          "latlng": "45.484318,9.131135",
+          "label": "Picchiarello - Murales"
+        },
+        "q": {
+          "latlng": "45.483984,9.131898",
+          "label": "Dynosaur Murales Ippodromo"
+        },
+        "r": {
+          "latlng": "45.483991,9.13234",
+          "label": "69 Horse Racer Murales Ippodromo"
+        },
+        "s": {
+          "latlng": "45.483818,9.133062",
+          "label": "Cubistic Horse - Murales ippodromo"
+        },
+        "t": {
+          "latlng": "45.483776,9.133386",
+          "label": "Il Gioco in Piazza - Murales"
+        },
+        "u": {
+          "latlng": "45.483506,9.133967",
+          "label": "Stone Horse Setting Sun Murales Ippodromo"
+        },
+        "v": {
+          "latlng": "45.4833,9.134675",
+          "label": "LA Green Loop Murales Ippodromo"
+        },
+        "w": {
+          "latlng": "45.483329,9.135165",
+          "label": "Maradona - Murales"
+        },
+        "x": {
+          "latlng": "45.483044,9.135746",
+          "label": "Tripping Murales Ippodromo"
+        },
+        "y": {
+          "latlng": "45.482981,9.13651",
+          "label": "Green Dragon - Murales Ippodromo"
+        },
+        "z": {
+          "latlng": "45.482907,9.136869",
+          "label": "Paolo Rossi - Murales"
+        },
+        "{": {
+          "latlng": "45.48271,9.137236",
+          "label": "The Pushers Murales Ippodromo"
+        },
+        "|": {
+          "latlng": "45.482391,9.138415",
+          "label": "Genius Mind Run Fast Murales Ippodromo"
+        },
+        "}": {
+          "latlng": "45.482358,9.139071",
+          "label": "Il Dipinto - Murales"
+        },
+        "~": {
+          "latlng": "45.482276,9.139418",
+          "label": "Hot Wheels - Murales"
         }
       }
     }
